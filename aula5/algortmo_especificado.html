@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+<title>Algortmo de Especificidades</title>
+<style>
+    #titulo {
+        color: green;
+        border: 2px outset blue;
+    }
+
+    .descricao {
+        color: blue;
+    }
+
+    p {
+        color: red;
+    }
+
+    .principal article {
+        background-color: aliceblue;
+    }
+
+    main article {
+        background-color: bisque;
+    }
+
+    main,
+    article {
+        border: 2px dotted blue;
+    }
+</style>
+
+<body>
+    <main>
+        <article>
+            <p>este paragráfo está dentro de um article que está dentro de um main</p>
+        </article>
+    </main>
+    <p id="titulo" class="descricao"> Estudo do algoritmo de Especificidades</p>
+</body>
+
+</html>
