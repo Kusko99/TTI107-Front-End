@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Estilos</title>
+    <!-- <link rel="stylesheet" href="../css/styles.css"> -->
+    <style>
+        article p {
+            padding: 12px;
+            background-color: indianred;
+        }
+
+        #principal p.promocao {
+            padding: 12px;
+            background-color: lime;
+        }
+        body #principal article section p.coordenadores{
+            text-align: center;
+        }
+        article > p{
+            border: 2px solid black;
+        }
+        main > article section > p.coordenadores{
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="principal">
+        <h1 id="titulo">Portal de cursos</h1>
+        <p id="descricao"> Temos cursos nas mais diversas áreas</p>
+        <p class="nova promocao"> Venha conversar conosco e conhecer
+            nossas ofertas de
+            <strong>bolsas de estudos</strong>
+        </p>
+        <p class="final-pagina">Entre em contado 2424-6969</p>
+        <p>Cursos</p>
+        <article>
+            <p class="novo-curso">Ciência da Computação</p>
+            <p class="curso">Engenharia</p>
+            <p class="curso">Administração</p>
+            <section>
+                <p class="coordenadores">Nossos coordenadores estão à disposição</p>
+            </section>
+        </article>
+        <p id="rodape" class="final-pagina">&copy; Todos os direitos reservados</p>
+    </main>
+</body>
+
+</html>
