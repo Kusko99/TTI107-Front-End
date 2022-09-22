@@ -1,0 +1,26 @@
+#title{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#game{
+    text-align: center;
+    padding: 10px;
+}
+#logo{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.game_info{
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto;
+}
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
