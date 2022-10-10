@@ -1,0 +1,41 @@
+h1{
+    border: 5px blue solid;
+    color: blue;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h2{
+    background-color: aqua;
+    border-left: 10px solid blue;
+}
+h3{
+    border-left: 10px solid blue;
+    border-top-left-radius: 15px;
+}
+
+p{
+    border-left: 10px solid blue;
+}
+
+.end_of_article{
+    border-bottom-left-radius: 15px;
+}
+
+.language_name{
+    border-left: 0px solid;
+    background-color: aquamarine;
+}
+
+.language_description{
+    border-left: 0px solid;
+    margin-left: 50px;
+}
+
+.list1{
+    list-style: decimal;
+}
+
+.list2{
+    list-style: square;
+}
