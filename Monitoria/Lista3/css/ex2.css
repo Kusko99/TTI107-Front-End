@@ -1,0 +1,11 @@
+*{
+    background-color: maroon;
+}
+body{
+    margin: 10%;
+}
+.paragrafo{
+    background-color: wheat;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
