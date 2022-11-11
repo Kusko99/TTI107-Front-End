@@ -1,0 +1,64 @@
+.menu{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 30px 2%;
+}
+header{
+    background-color: chocolate;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+}
+
+ul{
+    padding: 15px 40px;
+    width: 30%;
+}
+
+li{
+    list-style: none;
+    border-bottom: 1.5px solid black;
+    border-top: 1.5px solid black;
+    border-left: 3px solid chocolate;
+    border-right: 3px solid chocolate;
+    padding: 15px 175px 0px 0px;
+    font-size: 17px;
+    width: 100%;
+}
+.frist{
+    border-top: 3px solid chocolate;
+    margin-top: 25px;
+}
+.last{
+    border-bottom: 3px solid chocolate;
+}
+.lorem{
+    vertical-align: center;
+    margin-top: 3%;
+}
+
+.photo-book{
+    display: inline-block;
+    border: 3px solid chocolate;
+    border-radius: 15px;
+}
+.photo-showcase{
+    display: inline-block;
+}
+
+section{
+    display: flex;
+}
+.photo{
+    border: dashed 3px chocolate;
+    margin: 10px;
+    height: 120px;
+    width: 120px;
+    justify-content: center;
+}
