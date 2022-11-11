@@ -1,7 +1,3 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
 .menu{
     display: flex;
     color: white;
@@ -15,11 +11,7 @@ header{
     height: 100px;
     display: flex;
     justify-content: space-between;
-}
-.container{
-    display: flex;
-}
-
+}  
 ul{
     padding: 15px 40px;
     width: 30%;
@@ -42,13 +34,8 @@ li{
 .last{
     border-bottom: 3px solid chocolate;
 }
-.lorem{
-    vertical-align: center;
-    margin-top: 3%;
-}
-
 .photo-book{
-    display: inline-block;
+    display: flex;
     border: 3px solid chocolate;
     border-radius: 15px;
 }
@@ -64,5 +51,4 @@ section{
     margin: 10px;
     height: 120px;
     width: 120px;
-    justify-content: center;
 }
