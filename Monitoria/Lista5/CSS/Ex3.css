@@ -14,7 +14,7 @@ header{
 }  
 ul{
     padding: 15px 40px;
-    width: 30%;
+    /* width: 30%; */
 }
 
 li{
@@ -41,6 +41,9 @@ li{
 }
 .photo-showcase{
     display: inline-block;
+    margin: 10px;
+    width: 70%;
+    flex-basis: 600px;
 }
 
 section{
@@ -49,6 +52,10 @@ section{
 .photo{
     border: dashed 3px chocolate;
     margin: 10px;
-    height: 120px;
-    width: 120px;
+    height: 300px;
+    width: 300px;
+}
+
+#sub-menu{
+    width: 30%;
 }
