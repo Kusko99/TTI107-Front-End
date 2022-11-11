@@ -38,11 +38,12 @@ li{
     display: flex;
     border: 3px solid chocolate;
     border-radius: 15px;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
 }
 .photo-showcase{
     display: inline-block;
     margin: 10px;
-    width: 70%;
     flex-basis: 600px;
 }
 
@@ -52,8 +53,8 @@ section{
 .photo{
     border: dashed 3px chocolate;
     margin: 10px;
-    height: 300px;
-    width: 300px;
+    height: 120px;
+    width: 120px;
 }
 
 #sub-menu{
