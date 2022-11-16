@@ -1,0 +1,17 @@
+@media screen and (min-width: 1000px){
+    body{
+        background-color: purple;
+    }
+}
+
+@media screen and (max-width: 200px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media screen and (max-height: 400px) and (min-height: 200px){
+    body{
+        background-color: black;
+    }
+}
