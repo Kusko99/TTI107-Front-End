@@ -1,0 +1,12 @@
+T1 - Desenvolvimento Front End
+Grupo - "Divulgação RapTap"
+	  Integrantes;
+
+
+			Diogo Carvalho Bernardini  22.01179-0
+			Fernando Freitas de Oliveira  19.00468-0
+			Guilherme Toffanelli Ghenaim  22.00504-8
+			Othavio Carvalho Losovoi  22.01545-0
+			Pedro Alvez Borges  22.01775-5
+			Raul Monteiro de Sousa Carvalho  22.01436-5
+			
