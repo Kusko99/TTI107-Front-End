@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cascata CSS</title>
+    <link rel="stylesheet" href="css/cascata.css">
+    <style>
+        #título {
+            color: green;
+        }
+
+        .descrição {
+            color: blue;
+        }
+
+        p {
+            color: red;
+        }
+
+        .principal article {
+            background-color: aliceblue;
+        }
+
+        main article {
+            background-color: bisque;
+        }
+
+        main,
+        article {
+            background-color: azure;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <article>
+            <p>Este parágrafo está dentor de article que está dentro de main</p>
+        </article>
+    </main>
+    <p id="título" class="descrição">Estudo do algorítimo de especificidades</p>
+</body>
+
+</html>
